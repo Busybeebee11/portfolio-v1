@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav_bar">
+        <a class="active" href="index.html">About Me</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </div>
+    </header>
+
+    <main>
+      <h1>Contact Me</h1>
+      <div class="center">
+        <form action="contact.html" method="post">
+          <div class="form_control">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fulltname" placeholder="Your name" required/>
+          </div>
+
+          <div class="form_control">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your email address" required/>
+          </div>
+
+          <div class="form_control">
+            <label for="subject">Subject:</label>
+            <textarea id="subject" name="subject" placeholder="Your message.."></textarea>
+          </div>
+
+          <button type="submit" class="submit">Submit</button><br/>
+          
+          <div class="container">
+            <p class="que">Stay connected <a href="register.html">Register here</a>.</p>
+          </div>
+        </form>
+      </div>
+      <br/>
+
+      <div class="contact_info">
+        <p>
+          <a class="contact_detail" href="mailto:olusiyanblessing@gmail.com">olusiyanblessing@gmail.com</a>
+        </p>
+        <p>
+          <a class="contact_detail_email" href="tel:+234 (802) 4645888">tel:+234 (802) 4645888</a>
+        </p>
+
+        <div class="social_media">
+          <a href="https://twitter.com/OluwaBusyBee" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/blessing-olusiyan-157300103"class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/bee_olusiyan/"class="fa fa-instagram"></a>
+          <a href="https://www.github.com/Busybee11/"class="fa fa-github"></a>
+        </div>
+      </div>
+    </main>
+    <br/>
+
+    <footer>
+      <div class="footer">
+        <p>
+          Developed & designed by Oluwabusybee/Copyright 2022 © - All rights reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
