@@ -337,6 +337,7 @@ span.que, p.que a:active {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    margin-top: 24px;
   }
 
   .about_me-content {
